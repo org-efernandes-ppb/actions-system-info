@@ -15,7 +15,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@3
+      - uses: actions/checkout@v3
         with:
           persist-credentials: false
       # This is a container action, so only linux can be used
